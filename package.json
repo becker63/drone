@@ -1,0 +1,29 @@
+{
+  "name": "drone",
+  "version": "0.1.0",
+  "description": "",
+  "license": "MIT",
+  "scripts": {
+    "start": "vite",
+    "preview": "vite preview",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.6.1",
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "framer-motion": "^10.12.10",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-joystick-component": "^6.2.0"
+  },
+  "devDependencies": {
+    "babel-preset-nano-react-app": "^0.1.0",
+    "vite": "^3.2.1"
+  },
+  "babel": {
+    "presets": [
+      "nano-react-app"
+    ]
+  }
+}

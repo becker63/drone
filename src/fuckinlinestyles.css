@@ -1,0 +1,27 @@
+
+.overflowcontainer {
+    overflow-y: scroll;
+    color: black;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+pre {
+    outline: 1px solid #ccc;
+    padding: 5px;
+    margin: 15px;
+  }
+  .string {
+    color: green;
+  }
+  .number {
+    color: darkorange;
+  }
+  .boolean {
+    color: blue;
+  }
+  .null {
+    color: magenta;
+  }
+  .key {
+    color: red;
+  }
